@@ -58,3 +58,8 @@ model VerificationToken {
 
     @@unique([identifier, token])
 }
+
+model Like {
+    id     String @id
+    userId String
+}
